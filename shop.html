@@ -33,24 +33,26 @@
 				<li>СРЕДСТВА ДЛЯ УХОДА</li>
 			</ul>
 			<aside>
-                <h2>ПРОИЗВОДИТЕЛИ:</h2>
-                <div id="slider"></div>
-				0-30000
-				<hr>
-				<h3>ПРОИЗВОДИТЕЛИ:</h3>
-				<label><input type="checkbox" checked/> BAXTER OF CALIFORNIA</label>
-				<label><input type="checkbox"/> MR NATTY</label>
-				<label><input type="checkbox" checked/> SUAVECITO</label>
-				<label><input type="checkbox"/> MALIN+GOETZ</label>
-				<label><input type="checkbox"/> MURRAYS</label>
-				<label><input type="checkbox" checked/>AMERICAN CREW</label>
-				<h2>ГРУППЫ ТОВАРОВ</h2>
-				<label><input type="radio" checked name="groups"/> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
-				<label><input type="radio" checked name="groups" checked/> СРЕДСТВА ДЛЯ УХОДА</label>
-				<label><input type="radio" name="groups"/> АКСЕССУАРЫ</label>
-				<div class="show">
-					<button type="submit" class="filter-btn">Показать</button>
-				</div>
+				<form action="https://htmlacademy.ru/ method="post" class="manufacturers-and-goods">
+					<fieldset>
+						<span class="manufacturers">ПРОИЗВОДИТЕЛИ:</span>
+						<span class="checkbox"><legend><label><input type="checkbox" checked/> BAXTER OF CALIFORNIA</label></legend></span>
+						<span class="checkbox"><legend><label><input type="checkbox"/> MR NATTY</label></legend></span>
+						<span class="checkbox"><legend><label><input type="checkbox" checked/> SUAVECITO</label></legend></span>
+						<span class="checkbox"><legend><label><input type="checkbox"/> MALIN+GOETZ</label></legend></span>
+						<span class="checkbox"><legend><label><input type="checkbox"/> MURRAYS</label></legend></span>
+						<span class="checkbox"><legend><label><input type="checkbox" checked/>AMERICAN CREW</label></legend></span>
+					</fieldset>
+					<fieldset>
+						<span class="goods">ГРУППЫ ТОВАРОВ</span>
+						<span class="checkbox"><legend><label><input type="radio" checked name="groups"/> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label></legend></span>
+						<span class="checkbox"><legend><label><input type="radio" checked name="groups" checked/> СРЕДСТВА ДЛЯ УХОДА</label></legend></span>
+						<span class="checkbox"><legend><label><input type="radio" name="groups"/> АКСЕССУАРЫ</label></legend></span>
+					</fieldset>
+					<div class="show">
+						<button type="submit" class="filter-btn">Показать</button>
+					</div>
+				</form>
             </aside>
 			<div class="catalog-table">
 				<div class="first-item">
